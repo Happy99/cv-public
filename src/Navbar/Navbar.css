@@ -1,0 +1,192 @@
+/* <div class="col-md-4 author-img" style="background-image: url(&quot;images/author-1.jpg&quot;); 
+transform: translateZ(0px) translateY(15.368%);" data-scrollax=" properties: { translateY: '-70%'}"></div> */
+
+
+
+.navigation {
+    width: 5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navigation .logo {
+    width: 45px;
+    height: 45px;
+    padding: 0.4em;
+    margin-top: 1.5em;
+}
+
+.navigation .menu {
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+.navigation .bar1,
+.navigation .bar2 {
+    width: 35px;
+    height: 2px;
+    background-color: #000000;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.navigation .bar3 {
+    width: 23px;
+    height: 2px;
+    background-color: #000000;
+    margin: 6px 0;
+    transition: 0.2s;
+}
+
+.navigation .menu:hover .bar3 {
+    width: 35px;
+}
+
+.navigation .email,
+.navigation .email a {
+    transform: rotate(-90deg);
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 5.5em;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(18,18,18,0.99);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay .overlay__close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: #818181;
+    z-index: 99;
+}
+
+.overlay .overlay__close:hover {
+    color: #ffffff;
+}
+
+ul.overlay__menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul.overlay__menu > li {
+    list-style-type: none;
+}
+
+ul.overlay__menu > li a.navigation__navlink {
+    margin: 0;
+    text-decoration: none;
+    position: relative;
+}
+
+ul.overlay__menu > li a.navigation__navlink > span{
+    font-size: 2em;
+    padding: 0 0.3em;
+    color: #818181;
+}
+
+ul.overlay__menu > li a.navigation__navlink > span:hover,
+ul.overlay__menu > li a.navigation__navlink > span:focus {
+    color: #ffffff;
+}
+
+ul.overlay__menu > li a.navigation__navlink > small {
+    position: absolute;
+    left: -35px;
+    bottom: 5px;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.navigation__navlink--active span{
+    color: #ffffff !important;
+    border-bottom: 3px solid #ffffff;
+}
+
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+}
+
+@media (max-width: 800px) {
+    .navigation {
+        width: 100%;
+        /* height: 30px; */
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        padding: 1em;
+        z-index: 99;
+        background-color: #ffffff;
+    }
+
+    .navigation .logo {
+        width: 50px;
+        height: 50px;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .navigation .bar1,
+    .navigation .bar2,
+    .navigation .bar3 {
+        width: 35px;
+        height: 3px;
+        position: relative;
+        right: 30px;
+    }
+
+    .navigation .email {
+        display: none;
+    }
+
+    .home {
+        height: 100vh;
+    }
+}
