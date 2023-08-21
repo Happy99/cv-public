@@ -37,7 +37,7 @@ class Navbar extends Component {
                     <ul className="overlay__menu">
                         <li>
                             <div className="navigation__navlink" activeClassName="navigation__navlink--active" >
-                                <small>01</small><span>Home</span>
+                                {/* <small>01</small><span>Home</span> */}
                             </div>
                         </li>
                     </ul>

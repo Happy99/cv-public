@@ -1,0 +1,56 @@
+.references {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.references .reference__nadpis .text {
+    position: relative;
+}
+
+.references .reference__nadpis h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 15vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(173, 173, 173, 0.3);
+    z-index: -1;    
+    margin-top: 0;
+}
+
+.references .reference__nadpis p {
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.references .reference__nadpis .podtext {
+    position: absolute;
+}
+
+.references .references__loga {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+}
+
+.references .references__loga img {
+    width: 100%;
+    height: auto;
+    max-width: 130px;
+    max-height: 40px;
+    object-fit: contain;
+    filter: grayscale(1);
+    margin: 1em;
+}
+
+.references .references__loga img:hover {
+    filter: grayscale(0);
+}

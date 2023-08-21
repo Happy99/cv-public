@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from "react"
 import meImage from "../img/face_bl_wh.png";
 
+
 export function About() {
 
     const [timelineClassList, setTimelineClassList] = useState("timeline d-none");
@@ -31,9 +32,16 @@ export function About() {
                     <div className="text">
                         <h3>Hi! I'm Petr Šťastný</h3>
                         <p>
-                            I love my family, friends, freedom and one of my biggest passion is travelling anywhere and anytime. I like learning new things and also creating new things.&nbsp;
+                            Creating things, making content, learning new things and travel around the world. That is me.
+                            <br />
+                            <br />
+                            {/* I love my family, friends, freedom and one of my biggest passion is travelling anywhere and anytime. I like learning new things and also creating new things.&nbsp; */}
                             <a href="#timeline--anchor" className="btn--more" title="My life timeline" onClick={handleDisplayTimeline}>{timelineButtonText}</a>
                         </p>
+                        <div className="contact">
+                            <h4>contact me!</h4>
+                            petr.stastny99@gmail.com
+                        </div>
                         <div className="svgs">
                             <a href="https://www.facebook.com/petr.stastny99">
                                 <svg className="svg-icon facebook" viewBox="0 0 20 20">
@@ -52,10 +60,6 @@ export function About() {
                                     </radialGradient>
                                 </svg>
                             </a>
-                        </div>
-                        <div className="contact">
-                            <h4>contact me!</h4>
-                            petr.stastny99@gmail.com
                         </div>
                     </div>
                 </div>

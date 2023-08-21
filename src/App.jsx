@@ -2,6 +2,7 @@ import React from 'react'
 import { Hero } from "./Hero/Hero";
 import { About } from "./About/About";
 import Navbar from "./Navbar/Navbar";
+import { Reference } from './Reference/Reference';
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ export default function App() {
                 <Navbar />
                 <Hero />
                 <About />
+                <Reference />
 
                 <div className="bye">
                     <p>Thank you for your visit</p>
