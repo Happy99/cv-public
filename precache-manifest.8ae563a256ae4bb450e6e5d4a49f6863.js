@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "82babe6360aa67a24e41",
-    "url": "/cv-public/static/css/main.0da81ed5.chunk.css"
+    "revision": "571b7f0660fe91a782a9",
+    "url": "/cv-public/static/css/main.bdc7adf8.chunk.css"
   },
   {
-    "revision": "82babe6360aa67a24e41",
-    "url": "/cv-public/static/js/main.82babe63.chunk.js"
+    "revision": "571b7f0660fe91a782a9",
+    "url": "/cv-public/static/js/main.571b7f06.chunk.js"
   },
   {
     "revision": "9c02760b0960db3a2642",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/cv-public/static/media/drevocentrum.3fa4565d.jpeg"
   },
   {
-    "revision": "c87d0ec3919095f86a11735f7cb62e86",
+    "revision": "765b5214845c2dd3220cb8fdc3723a48",
     "url": "/cv-public/index.html"
   }
 ];

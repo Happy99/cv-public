@@ -1,7 +1,7 @@
 {
-  "main.css": "/cv-public/static/css/main.0da81ed5.chunk.css",
-  "main.js": "/cv-public/static/js/main.82babe63.chunk.js",
-  "main.js.map": "/cv-public/static/js/main.82babe63.chunk.js.map",
+  "main.css": "/cv-public/static/css/main.bdc7adf8.chunk.css",
+  "main.js": "/cv-public/static/js/main.571b7f06.chunk.js",
+  "main.js.map": "/cv-public/static/js/main.571b7f06.chunk.js.map",
   "static/js/1.9c02760b.chunk.js": "/cv-public/static/js/1.9c02760b.chunk.js",
   "static/js/1.9c02760b.chunk.js.map": "/cv-public/static/js/1.9c02760b.chunk.js.map",
   "runtime~main.js": "/cv-public/static/js/runtime~main.625f4c51.js",
@@ -9,8 +9,8 @@
   "static/media/face_bl_wh.png": "/cv-public/static/media/face_bl_wh.48e958fa.png",
   "static/media/alfain.png": "/cv-public/static/media/alfain.ccb0a097.png",
   "static/media/drevocentrum.jpeg": "/cv-public/static/media/drevocentrum.3fa4565d.jpeg",
-  "static/css/main.0da81ed5.chunk.css.map": "/cv-public/static/css/main.0da81ed5.chunk.css.map",
+  "static/css/main.bdc7adf8.chunk.css.map": "/cv-public/static/css/main.bdc7adf8.chunk.css.map",
   "index.html": "/cv-public/index.html",
-  "precache-manifest.f76a59b361c0b068ba9dcd4d17d625f3.js": "/cv-public/precache-manifest.f76a59b361c0b068ba9dcd4d17d625f3.js",
+  "precache-manifest.8ae563a256ae4bb450e6e5d4a49f6863.js": "/cv-public/precache-manifest.8ae563a256ae4bb450e6e5d4a49f6863.js",
   "service-worker.js": "/cv-public/service-worker.js"
 }
