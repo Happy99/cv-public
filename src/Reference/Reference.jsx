@@ -12,7 +12,8 @@ export function Reference() {
         <div className="references">
             <div className="reference__nadpis">
                 <div className="text">
-                    <p>Výběr zákazníků pod firmou PC HELP, a.s.</p>
+                    {/* <p>Výběr zákazníků pod firmou PC HELP, a.s.</p> */}
+                    <p>Selection of customers under PC HELP, a.s.</p>
                     <h3>Reference</h3>
                 </div>
             </div>

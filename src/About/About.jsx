@@ -69,25 +69,29 @@ export function About() {
                 <div className="container left">
                     <div className="content">
                         <h2>21.03.1999</h2>
-                        <p>Narodil jsem se v březnu roku 1999. Původně jsem měl být Terezka, ale asi se něco "pokazilo" a tak jsem Petr. Kamarádi mých rodičů mi říkají Pepa junior, pro své kamarády jsem Happy, pro rodinu Peťa a myslím si, že i s přibývajícím věkem mi to zůstane. Jsem totiž po dlouhé době v celé rodině chlap, tak si mě hlavně babičky a tetičky rozmazlují.</p>
+                        {/* <p>Narodil jsem se v březnu roku 1999. Původně jsem měl být Terezka, ale asi se něco "pokazilo" a tak jsem Petr. Kamarádi mých rodičů mi říkají Pepa junior, pro své kamarády jsem Happy, pro rodinu Peťa a myslím si, že i s přibývajícím věkem mi to zůstane. Jsem totiž po dlouhé době v celé rodině chlap, tak si mě hlavně babičky a tetičky rozmazlují.</p> */}
+                        <p>I was born in March 1999. Originally I was supposed to be Terezka, but I guess something "went wrong" and so I am Petr. My parents' friends call me Pepa, to my friends I am Happy, to my family I am Peťa, and I think that even as I get older I will keep it. After all, I'm a man in the whole family for the first time in a long time, so my grandmothers and aunts spoil me.</p>
                     </div>
                 </div>
                 <div className="container right">
                     <div className="content">
                         <h2>2014</h2>
-                        <p>Vystudoval jsem základní školu Horka-Domky v Třebíči a začal jsem váhat kým chci vlastně být. Jednu dobu u mě vedla architektura a design, což však prohrálo, ale i tak jsem skončil u designu - frontendu. Od mala jsem měl blízko k počítačům díky tátovi. Pamatuji si na doby, kdy jsem mu seděl na klíně a potichu ho sledoval, či později, když jsme "pařili" Need For Speed Underground. Jednak jsme hráli hry, ale táta počítače rád i spravoval, nebo se v nich nějak šťoural, proto moje volba byla celkem jasná. Začal jsem studovat Střední průmyslovou školu v Třebíčí obor Počítačové systémy. V prváku jsem váhal, jestli jsem si vybral správný obor a začal trochu litovat. Ve druháku se to ve mě zlomilo a dal se na weby. </p>
+                        {/* <p>Vystudoval jsem základní školu Horka-Domky v Třebíči a začal jsem váhat kým chci vlastně být. Jednu dobu u mě vedla architektura a design, což však prohrálo, ale i tak jsem skončil u designu - frontendu. Od mala jsem měl blízko k počítačům díky tátovi. Pamatuji si na doby, kdy jsem mu seděl na klíně a potichu ho sledoval, či později, když jsme "pařili" Need For Speed Underground. Jednak jsme hráli hry, ale táta počítače rád i spravoval, nebo se v nich nějak šťoural, proto moje volba byla celkem jasná. Začal jsem studovat Střední průmyslovou školu v Třebíčí obor Počítačové systémy. V prváku jsem váhal, jestli jsem si vybral správný obor a začal trochu litovat. Ve druháku se to ve mě zlomilo a dal se na weby. </p> */}
+                        <p>I graduated from the Horka-Domky primary school in Třebíč and I started to hesitate who I wanted to be. At one time, architecture and design led the way for me, but that lost out, but I still ended up in design - frontend. I was close to computers from a young age thanks to my dad. I remember times when I was sitting on his lap and watching him quietly, or later when we were playing Need For Speed Underground. First of all, we played games, but my dad also liked to fix computers, so my choice was pretty clear. I started studying at the Střední průmyslovou školu in Třebíč in the field of Computer Systems. In my freshman year I hesitated if I chose the right field and started to regret it a bit. In my sophomore year it broke down and I went fully into web design.</p>
                     </div>
                 </div>
                 <div className="container left">
                     <div className="content">
                         <h2>2018</h2>
-                        <p>Konečně mám maturitu a vzhůru do dospěláckýho života</p>
+                        {/* <p>Konečně mám maturitu a vzhůru do dospěláckýho života</p> */}
+                        <p>Graduation and first job</p>
                     </div>
                 </div>
                 <div className="container right">
                     <div className="content">
                         <h2>25.06.2018</h2>
-                        <p>Nastupuju do své první práce v Třebíči. Mám práci jako web developer v týmu Major Shop, kde se jako jediní v Republice specializujeme tvorbou e-shopů s napojením na Helios. Získávám zde cenné zkušenosti jak v programování tak i v komunikaci se zákazníky a celkovým "dospělým" životem.</p>
+                        {/* <p>Nastupuju do své první práce v Třebíči. Mám práci jako web developer v týmu Major Shop, kde se jako jediní v Republice specializujeme tvorbou e-shopů s napojením na Helios. Získávám zde cenné zkušenosti jak v programování tak i v komunikaci se zákazníky a celkovým "dospělým" životem.</p> */}
+                        <p>I'm starting my first job in Trebic. I have a job as a web developer in the Major Shop team, where we are the only ones in the Republic specializing in creating e-shops with a connection to Helios Orange. Here I am gaining valuable experience in programming as well as in communication with customers and overall "adult" life.</p>
                     </div>
                 </div>
             </div>        
